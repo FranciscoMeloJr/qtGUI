@@ -26,7 +26,6 @@ MainWindow::~MainWindow()
 //Push Bottoom
 void MainWindow::on_pushButton_clicked()
 {
-    ui->label->setText("Hello");
     int status = system("./DisplayImage ./obama.jpg");
     std::cout << status;
 }
